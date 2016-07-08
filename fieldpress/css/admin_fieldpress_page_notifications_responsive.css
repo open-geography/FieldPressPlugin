@@ -1,0 +1,32 @@
+/* Left side navifation ( Admin Menu ) is collapsed */
+@media only screen and ( max-width: 900px ) {
+}
+
+/* Menu bar goes responsive */
+@media only screen and ( max-width: 782px ) {
+	.check-column,
+	.fieldpress_page_notifications .column-field,
+	.fieldpress_page_notifications .column-status,
+	.fieldpress_page_notifications #posts-filter {
+		display: none;
+	}
+
+	.fieldpress_page_notifications .column-notification-title .row-actions {
+		visibility: visible;
+	}
+
+	.fieldpress_page_notifications .column-notification-title .row-actions .field_remove {
+		display: none;
+	}
+
+}
+
+/* List table anomalies */
+@media ( max-width: 555px ) {
+}
+
+/* For extra small devices */
+@media ( max-width: 480px ) {
+}
+
+

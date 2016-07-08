@@ -1,0 +1,48 @@
+/* Left side navifation ( Admin Menu ) is collapsed */
+@media only screen and ( max-width: 1180px ) {
+    .instructors .manage-column.column-fields,
+    .instructors .column-fields{
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 1000px ) {
+    .instructors .column-registration-date{
+        display: none;
+    }
+}
+
+/* Menu bar goes responsive */
+@media only screen and ( max-width: 782px ) {
+	.check-column,
+	.column-registration-date,
+	.column-user-firstname,
+	.column-user-lastname,
+	.fieldpress_page_instructors #posts-filter {
+		display: none;
+	}
+
+	.fieldpress_page_instructors .column-user-fullname {
+		display: table-cell;
+	}
+}
+
+/* List table anomalies */
+@media ( max-width: 555px ) {
+	.fieldpress_page_instructors div.field-liquid-right{
+		clear:both;
+		float:left;
+	}
+	.fieldpress_page_instructors div.field-liquid-left {
+		width:100%;
+	}
+	.fieldpress_page_instructors div.field-liquid-left #field-left{
+		margin:0;
+	}
+}
+
+/* For extra small devices */
+@media ( max-width: 480px ) {
+}
+
+

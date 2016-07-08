@@ -1,0 +1,130 @@
+/* Left side navifation ( Admin Menu ) is collapsed */
+@media only screen and ( max-width: 1200px ) {
+    .students .column-latest-activity,
+    .students .column-registration-date{
+        width: 12%;
+    }
+
+    .students .column-fields{
+        width: 8%;
+    }
+}
+
+@media only screen and ( max-width: 1150px ) {
+    .students .column-latest-activity{
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 1150px ) {
+    .students .column-registration-date{
+        display: none;
+    }
+}
+
+
+/* Menu bar goes responsive */
+@media only screen and ( max-width: 782px ) {
+    .check-column,
+    .column-registration-date,
+    .column-user-firstname,
+    .column-user-lastname,
+    .fieldpress_page_students #posts-filter {
+        display: none;
+    }
+
+    .fieldpress_page_students .column-user-fullname {
+        display: table-cell;
+    }
+
+    .fieldpress_page_students th {
+        text-overflow:ellipsis;
+    }
+
+    /* Workbook view */
+    .fieldpress_page_students .field-holder .sidebar-name{
+        clear: both;
+    }
+    .fieldpress_page_students #stops-wrap .border-divider {
+        margin-bottom: 0px;
+    }
+    .fieldpress_page_students #stops-wrap .tablenav {
+        height: 25px;
+    }
+    .fieldpress_page_students #stops-wrap .tablenav .chosen-select {
+        position: relative;
+        top: -8px;
+        width: 200px;
+        margin-right: 20px;
+    }
+    .fieldpress_page_students #stops-wrap .column-title {
+        width: 30%;
+    }
+    .fieldpress_page_students #stops-wrap .column-response {
+        width: 14%;
+    }
+    .fieldpress_page_students #stops-wrap #stops_accordion a.button-stops {
+        width: 75%;
+    }
+
+}
+
+@media only screen and ( max-width: 700px ) {
+    .student-workbook .column-module{
+        display: none;
+    }
+    .student-workbook .column-comment{
+        display: none;
+    }
+}
+
+
+/* List table anomalies */
+@media ( max-width: 555px ) {
+    .column-latest-activity {
+        display: none;
+    }
+    .fieldpress_page_students .column-edit,
+    .fieldpress_page_students .column-workbook,
+    .fieldpress_page_students .column-fields {
+        width: 10%;
+    }
+    .fieldpress_page_students #stops-wrap #stops_accordion a.button-stops {
+        width: 85%;
+    }
+
+    /* Wordkbook view */
+    .fieldpress_page_students #stops-wrap .column-module,
+    .fieldpress_page_students #stops-wrap #submission_date,
+    .fieldpress_page_students #stops-wrap .coloumn-submission-date {
+        display: none;
+    }
+
+    .fieldpress_page_students #stops-wrap .column-title {
+        font-size: 1.1em;
+    }
+    .fieldpress_page_students #stops-wrap .column-title .extra-information {
+        font-size: 0.9em;
+    }
+
+    .fieldpress_page_assessment .column-submission-date,
+    .fieldpress_page_assessment .column-module{
+        display: none;
+    }
+    /*	extra-information*/
+
+}
+
+@media only screen and ( max-width: 500px ) {
+    .student-workbook .column-grade{
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 400px ) {
+    .student-workbook .column-submission-date{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,147 @@
+/* Left side navifation ( Admin Menu ) is collapsed */
+@media only screen and ( min-width: 2000px ) {
+
+}
+
+
+/* Left side navifation ( Admin Menu ) is collapsed */
+@media only screen and ( max-width: 900px ) {
+}
+
+/* Menu bar goes responsive */
+@media only screen and ( max-width: 782px ) {
+	/* Hide from smaller displays. */
+	.hide-small {
+		display:none;
+	}
+	.visible-small {
+		display:block;
+	}
+
+	.tablenav-top .actions {
+		float: none;
+		width: 100%;
+	}
+
+	.tablenav-top .actions .search-form .search-box {
+		position:relative;
+		width: 100%;
+		margin:0;
+		padding: 0;
+		height: auto;
+	}
+
+	.tablenav-top .actions .search-form .search-box input[name="s"] {
+		width: auto;
+		margin: 0 6px 0 0;
+	}
+
+	p.search-box input[type="submit"] {
+	    margin-bottom: 0;
+	    position: relative;
+	    top: 1px;
+	}
+
+	.nav-tab {
+		font-size:0.9em;
+	}
+
+	.quicktags-toolbar, div.mce-toolbar-grp  {
+		display: none;
+	}
+
+	/* Fix button heights. */
+	.stop-control-buttons .wp-core-ui input.button-stops[type="submit"],
+	.field-control-buttons	.wp-core-ui input.button-stops[type="submit"],
+	.stop-control-buttons a.button.button-stops,
+	.stop-control-buttons input[type="submit"].button.button-stops{
+		height: 30px;
+		padding: 4px 14px 6px 14px;
+	}
+
+	.stop-control-buttons .button.button-preview {
+		height: 31px;
+	    margin: 3px 0 4px;
+	}
+
+	.responsive-reset,
+	.responsive-reset *,
+	.responsive-reset a:hover,
+	.responsive-reset a:visited,
+	.responsive-reset a:active{
+		background:none;
+		border:none;
+		bottom:auto;
+		clear:none;
+		cursor:default;
+		/* didn't really know what the default for display should be*/
+		/*display:inline;*/
+		float:none;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:medium;
+		font-style:normal;
+		font-weight:normal;
+		height:auto;
+		left:auto;
+		letter-spacing:normal;
+		line-height:normal;
+		max-height:none;
+		max-width:none;
+		min-height:0;
+		min-width:0;
+		overflow:visible;
+		position:static;
+		right:auto;
+		text-align:left;
+		text-decoration:none;
+		text-indent:0;
+		text-transform:none;
+		top:auto;
+		visibility:visible;
+		white-space:normal;
+		width:auto;
+		z-index:auto;
+	}
+
+}
+
+/* List table anomalies */
+@media ( max-width: 555px ) {
+	.hide-extra-small {
+		display:none;
+	}
+	.visible-extra-small {
+		display:block;
+	}
+	.column-stops {
+		display:none;
+	}
+
+	.stop-control-buttons .wp-core-ui input.button-stops[type="submit"],
+	.field-control-buttons	.wp-core-ui input.button-stops[type="submit"],
+	.stop-control-buttons a.button.button-stops,
+	.stop-control-buttons input[type="submit"].button.button-stops,
+	.stop-control-buttons a.button.button-publish,
+	.stop-control-buttons a.button.button-unpublish,
+	.stop-control-buttons .button.button-preview,
+	.stop-control-buttons a.button.button-settings{
+	    width: 100px;
+	}
+
+}
+
+/* For extra small devices */
+@media ( max-width: 480px ) {
+
+	.column-stops {
+		display:none;
+	}
+
+	.column-actions {
+		width: 5%;
+	}
+
+
+}
+
+
