@@ -11,5 +11,3 @@ A demo website (only student level access, no admin access) can be found here:
 [http://fieldpress.ca/](http://fieldpress.ca/)
 
 Additional help and instructions can be found here: [http://open.geog.ubc.ca/resources/fieldpress/](http://open.geog.ubc.ca/resources/fieldpress/)
-
-Please contact Arthur Gill Green at arthur.green@mail.mcgill.ca if you have any inquiries regardin the plugin.
